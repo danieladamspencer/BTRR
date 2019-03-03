@@ -1,0 +1,22 @@
+Package: BTRR
+Title: Bayesian Tensor Response Regression
+Version: 1.0
+Authors@R: person("Dan","Spencer", email = "daspence@ucsc.edu", role = c("aut","cre"))
+Description: This package provides data-generation and analysis functions to support the submitted manuscript Bayesian Tensor Response Regression With an Application to Brain Activation Studies by Guhaniyogi and Spencer (2018).
+Depends: R (>= 3.5.1)
+License: GNU GPLv3
+Encoding: UTF-8
+LazyData: true
+Imports:
+	neuRosim,
+	dlm,
+	truncnorm,
+	GIGrvg,
+	abind,
+	statmod,
+	doParallel,
+	RcppArmadillo,
+	MCMCpack
+Suggests:
+	tidyverse
+RoxygenNote: 6.1.1.9000
